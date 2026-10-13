@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this benchmarking framework, please cite the software and associated article."
+title: "Long-Distance Cloud Transfer Benchmark"
+type: software
+authors:
+  - family-names: "Sandoval Rojas"
+    given-names: "Pablo Andrés"
+  - family-names: "Camero Berrones"
+    given-names: "Rosa Gabriela"
+version: 0.1.0
+# date-released: YYYY-MM-DD
+# url: https://github.com/YOUR-ACCOUNT/tcp-long-distance-benchmark
+# doi: 10.5281/zenodo.REPLACE_AFTER_RELEASE

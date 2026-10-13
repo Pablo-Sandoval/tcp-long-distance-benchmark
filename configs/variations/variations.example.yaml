@@ -1,0 +1,14 @@
+variations:
+  - code: V01_BASELINE_4M
+    axis: baseline
+    congestion_control: cubic
+    qdisc: fq_codel
+    buffer_limit_mib: 4
+    sack: true
+  - code: V02_SACK_OFF_4M
+    axis: reliability
+    congestion_control: cubic
+    qdisc: fq_codel
+    buffer_limit_mib: 4
+    sack: false
+# Add V03, V04, V05, V06, V08, V09, and V10 from the verified production configuration.
