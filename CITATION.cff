@@ -5,8 +5,10 @@ type: software
 authors:
   - family-names: "Sandoval Rojas"
     given-names: "Pablo Andrés"
+    orcid: "https://orcid.org/0009-0006-8492-210X"
   - family-names: "Camero Berrones"
     given-names: "Rosa Gabriela"
+    orcid: "https://orcid.org/0000-0003-4438-1645"
 version: 1.0.0
 date-released: "2026-03-31"
 url: "https://github.com/Pablo-Sandoval/tcp-long-distance-benchmark"

@@ -8,6 +8,11 @@
 
 A reproducible randomized-block framework for comparing reliability, BDP buffer ceilings, congestion control, encrypted-transfer ciphers, and application-level data reduction over long-distance cloud paths.
 
+## Authors & Attribution
+
+- **Pablo Andrés Sandoval Rojas** — [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--8492--210X-green.svg)](https://orcid.org/0009-0006-8492-210X)
+- **Dra. Rosa Gabriela Camero Berrones** — [![ORCID](https://img.shields.io/badge/ORCID-0000--0003--4438--1645-green.svg)](https://orcid.org/0000-0003-4438-1645)
+
 ## Research axes
 
 1. **Reliability / SACK:** `V02_SACK_OFF_4M` vs `V01_BASELINE_4M`
