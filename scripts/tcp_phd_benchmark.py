@@ -4,7 +4,7 @@ TCP PhD Cross-Datacenter Performance Benchmarking Suite
 Version: 4.0.0-phd-frozen-definitive
 License: Academic Research Use (Sandoval Doctoral Dissertation / ANEXO-4)
 
-Execution Mode: Always Interactive Prompt Wizard
+Execution Mode: Always Interactive Prompt Wizard with Safe Resumption
 """
 
 import argparse
@@ -519,8 +519,8 @@ class TCPPhDOrchestrator:
         if os.geteuid() != 0:
             raise PermissionError("Benchmark requires root privileges for sysctl and tc.")
 
-        if not os.path.isfile(self.ssh_key):
-            raise FileNotFoundError(f"SSH private key not found at {self.ssh_key}")
+        if not self.ssh_key or not os.path.isfile(self.ssh_key):
+            raise FileNotFoundError(f"SSH private key not found at '{self.ssh_key}'")
 
         run_local_cmd("modprobe sch_fq sch_fq_codel tcp_bbr", check=False)
         _, avail_cc, _ = run_local_cmd("sysctl -n net.ipv4.tcp_available_congestion_control")
@@ -1331,14 +1331,26 @@ def prompt_user_parameters() -> Dict[str, Any]:
 def main():
     parser = argparse.ArgumentParser(description="TCP PhD Cross-Datacenter Benchmarking Suite")
     parser.add_argument("--resume", default=None, help="Campaign directory to resume")
+    parser.add_argument("--ssh-key", default="/root/test-psr-wdc-ssh_rsa.prv", help="Path to SSH private key")
     cli_args = parser.parse_args()
 
     if cli_args.resume:
+        ssh_key = cli_args.ssh_key
+        if not os.path.isfile(ssh_key):
+            while True:
+                key_input = input(f"Enter path to SSH Private Key [{ssh_key}]: ").strip()
+                selected_key = key_input if key_input else ssh_key
+                selected_key = os.path.expanduser(selected_key)
+                if os.path.isfile(selected_key):
+                    ssh_key = selected_key
+                    break
+                print(f"[!] File not found at: {selected_key}")
+
         orchestrator = TCPPhDOrchestrator(
             receiver_ip="",
             receiver_port=22,
             receiver_user="",
-            ssh_key="",
+            ssh_key=ssh_key,
             size_gib=1,
             blocks=1,
             output_dir="",
