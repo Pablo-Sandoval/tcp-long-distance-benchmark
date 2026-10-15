@@ -1,13 +1,21 @@
 cff-version: 1.2.0
 message: "If you use this benchmarking framework, please cite the software and associated article."
-title: "Long-Distance Cloud Transfer Benchmark"
+title: "Cross-Datacenter TCP Long-Distance Optimization Benchmark"
 type: software
 authors:
   - family-names: "Sandoval Rojas"
     given-names: "Pablo Andrés"
   - family-names: "Camero Berrones"
     given-names: "Rosa Gabriela"
-version: 0.1.0
-# date-released: YYYY-MM-DD
-# url: https://github.com/YOUR-ACCOUNT/tcp-long-distance-benchmark
-# doi: 10.5281/zenodo.REPLACE_AFTER_RELEASE
+version: 1.0.0
+date-released: "2026-03-31"
+url: "https://github.com/Pablo-Sandoval/tcp-long-distance-benchmark"
+doi: "10.5281/zenodo.23403337"
+license: "MIT"
+keywords:
+  - "tcp-optimization"
+  - "bbr"
+  - "cubic"
+  - "datacenter-networks"
+  - "bandwidth-delay-product"
+  - "network-benchmarking"

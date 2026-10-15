@@ -1,5 +1,11 @@
 # Long-Distance Cloud Transfer Benchmark
 
+[![DOI](https://zenodo.org/badge/1421186106.svg)](https://doi.org/10.5281/zenodo.23403337)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE-CODE)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA-DOCS)
+[![Python: 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](scripts/tcp_phd_benchmark.py)
+
 A reproducible randomized-block framework for comparing reliability, BDP buffer ceilings, congestion control, encrypted-transfer ciphers, and application-level data reduction over long-distance cloud paths.
 
 ## Research axes
@@ -9,10 +15,6 @@ A reproducible randomized-block framework for comparing reliability, BDP buffer 
 3. **Congestion control:** `V05_CUBIC_FQ_16M` vs `V06_BBR_FQ_16M`
 4. **Encryption:** `V03_BUF_16M` vs `V08_CIPHER_CHACHA_16M`
 5. **Data reduction:** `V09_COMP_RAW_16M` vs `V10_COMP_GZIP_16M`
-
-## Repository status
-
-This is a research-artifact scaffold. Add the production automation script under `scripts/` and replace placeholders before the first public release. Preliminary spreadsheets are included under `data/raw/` and must be reviewed for sensitive metadata before publication.
 
 ## Repository layout
 
@@ -31,14 +33,23 @@ tests/               Validation and consistency tests
 
 Each run should preserve the configuration, randomization seed, source and destination environment, kernel and OpenSSH versions, route label, payload characteristics, elapsed-time unit, integrity status, and telemetry fields defined in `docs/data-dictionary.md`. Raw data should never be manually edited; corrections should be implemented as a documented processing step.
 
-## Security and publication review
-
-Do not publish passwords, API keys, SSH private keys, host keys, private IP addresses, customer identifiers, cloud account identifiers, or internal-only infrastructure details. Confirm employer, cloud-provider, and university publication requirements before making the repository public.
-
 ## Citation
 
-Citation metadata is provided in `CITATION.cff`. Replace the placeholder repository URL and add the release DOI after archiving the first stable release.
+```bibtex
+@software{sandoval2026tcp,
+  author       = {Pablo Andrés Sandoval Rojas and Rosa Gabriela Camero Berrones},
+  title        = {Cross-Datacenter TCP Long-Distance Optimization Benchmark},
+  month        = mar,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.23403337},
+  url          = {https://doi.org/10.5281/zenodo.23403337}
+}
+```
+
+Citation metadata is also provided in `CITATION.cff`.
 
 ## License
 
-Code is provided under the MIT License. Documentation and released datasets are provided under CC BY 4.0, subject to the publication review above.
+Code is provided under the [MIT License](LICENSE-CODE). Documentation and released datasets are provided under [CC BY 4.0](LICENSE-DATA-DOCS).
