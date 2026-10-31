@@ -880,12 +880,13 @@ class TCPPhDOrchestrator:
                     if row["validation_status"] in ("VALID_SIZE_VERIFIED", "VALID_CHECKSUM_VERIFIED"):
                         completed_cells.add((int(row["block_id"]), row["variation_code"]))
 
-        file_mode = "a" if self.is_resume and os.path.exists(iterations_csv) else "w"
+        needs_header = not os.path.exists(iterations_csv) or os.path.getsize(iterations_csv) == 0
+        file_mode = "a" if self.is_resume and os.path.exists(iterations_csv) and os.path.getsize(iterations_csv) > 0 else ("a" if self.is_resume else "w")
         var_lookup = {v["code"]: v for v in EXPERIMENTAL_VARIATIONS}
 
         with open(iterations_csv, file_mode, newline="") as csv_file:
             writer = csv.writer(csv_file)
-            if file_mode == "w":
+            if needs_header:
                 writer.writerow(csv_headers)
 
             for step in plan:
