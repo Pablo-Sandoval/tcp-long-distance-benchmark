@@ -1,0 +1,16 @@
+2026-10-14T11:36:12.111890+00:00 RuntimeError: Benchmark script SHA-256 mismatch! Expected: 05d8488ab51d90b54629845d3b4edb322db7a1b68d1cd79b6cac4f93166ffceb, Found: b2ccd482d5252b37eb4dc586e5c43c7506b4356cf8a4c9de145011bde206f798. Resume aborted to preserve provenance.
+Traceback (most recent call last):
+  File "/root/tcp_benchmark.py", line 1377, in main
+    orchestrator.preflight_validations()
+  File "/root/tcp_benchmark.py", line 563, in preflight_validations
+    raise RuntimeError(
+RuntimeError: Benchmark script SHA-256 mismatch! Expected: 05d8488ab51d90b54629845d3b4edb322db7a1b68d1cd79b6cac4f93166ffceb, Found: b2ccd482d5252b37eb4dc586e5c43c7506b4356cf8a4c9de145011bde206f798. Resume aborted to preserve provenance.
+
+2026-10-14T11:38:52.194520+00:00 RuntimeError: Benchmark script SHA-256 mismatch! Expected: 05d8488ab51d90b54629845d3b4edb322db7a1b68d1cd79b6cac4f93166ffceb, Found: b2ccd482d5252b37eb4dc586e5c43c7506b4356cf8a4c9de145011bde206f798. Resume aborted to preserve provenance.
+Traceback (most recent call last):
+  File "/root/tcp_benchmark.py", line 1377, in main
+    orchestrator.preflight_validations()
+  File "/root/tcp_benchmark.py", line 563, in preflight_validations
+    raise RuntimeError(
+RuntimeError: Benchmark script SHA-256 mismatch! Expected: 05d8488ab51d90b54629845d3b4edb322db7a1b68d1cd79b6cac4f93166ffceb, Found: b2ccd482d5252b37eb4dc586e5c43c7506b4356cf8a4c9de145011bde206f798. Resume aborted to preserve provenance.
+
