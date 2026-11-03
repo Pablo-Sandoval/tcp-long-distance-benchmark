@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this benchmarking framework, please cite the software and associated article."
+message: "If you use this benchmarking framework, experimental data, or analysis artifacts, please cite this software."
 title: "Cross-Datacenter TCP Long-Distance Optimization Benchmark"
 type: software
 authors:
@@ -15,9 +15,12 @@ url: "https://github.com/Pablo-Sandoval/tcp-long-distance-benchmark"
 doi: "10.5281/zenodo.23403337"
 license: "MIT"
 keywords:
-  - "tcp-optimization"
-  - "bbr"
-  - "cubic"
-  - "datacenter-networks"
-  - "bandwidth-delay-product"
-  - "network-benchmarking"
+- "tcp-optimization"
+- "bbr"
+- "cubic"
+- "datacenter-networks"
+- "bandwidth-delay-product"
+- "network-benchmarking"
+- "cloud-computing"
+- "data-replication"
+- "reproducible-research"
