@@ -1,0 +1,11 @@
+2026-10-30T13:07:26.554155+00:00 KeyError: 'validation_status'
+Traceback (most recent call last):
+  File "/root/tcp_benchmark.py", line 1380, in main
+    orchestrator.run_campaign()
+  File "/root/tcp_benchmark.py", line 1104, in run_campaign
+    self.generate_academic_reports()
+  File "/root/tcp_benchmark.py", line 1118, in generate_academic_reports
+    if r["validation_status"] in ("VALID_SIZE_VERIFIED", "VALID_CHECKSUM_VERIFIED"):
+       ~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'validation_status'
+

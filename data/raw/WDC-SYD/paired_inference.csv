@@ -1,0 +1,1 @@
+treatment_code,control_code,hypothesis_test,n_pairs,paired_mean_diff_mbps,ci95_low,ci95_high,pct_gain

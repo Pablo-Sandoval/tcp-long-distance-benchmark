@@ -1,0 +1,140 @@
+{
+  "timestamp_utc": "2026-10-30T13:07:26.558262+00:00",
+  "status": "RESTORE_VERIFIED",
+  "qdisc_restoration_policy": "ROOT_QDISC_TYPE_RESTORED",
+  "sender_checks": {
+    "root_qdisc": {
+      "expected": "fq",
+      "observed": "fq",
+      "match": true
+    },
+    "net.ipv4.tcp_sack": {
+      "expected": "1",
+      "observed": "1",
+      "match": true
+    },
+    "net.ipv4.tcp_dsack": {
+      "expected": "1",
+      "observed": "1",
+      "match": true
+    },
+    "net.ipv4.tcp_fack": {
+      "expected": "0",
+      "observed": "0",
+      "match": true
+    },
+    "net.ipv4.tcp_window_scaling": {
+      "expected": "1",
+      "observed": "1",
+      "match": true
+    },
+    "net.ipv4.tcp_timestamps": {
+      "expected": "1",
+      "observed": "1",
+      "match": true
+    },
+    "net.ipv4.tcp_congestion_control": {
+      "expected": "bbr",
+      "observed": "bbr",
+      "match": true
+    },
+    "net.core.default_qdisc": {
+      "expected": "fq",
+      "observed": "fq",
+      "match": true
+    },
+    "net.core.rmem_max": {
+      "expected": "212992",
+      "observed": "212992",
+      "match": true
+    },
+    "net.core.wmem_max": {
+      "expected": "212992",
+      "observed": "212992",
+      "match": true
+    },
+    "net.core.rmem_default": {
+      "expected": "212992",
+      "observed": "212992",
+      "match": true
+    },
+    "net.core.wmem_default": {
+      "expected": "212992",
+      "observed": "212992",
+      "match": true
+    },
+    "net.ipv4.tcp_rmem": {
+      "expected": "4096 131072 6291456",
+      "observed": "4096 131072 6291456",
+      "match": true
+    },
+    "net.ipv4.tcp_wmem": {
+      "expected": "4096 16384 4194304",
+      "observed": "4096 16384 4194304",
+      "match": true
+    }
+  },
+  "receiver_checks": {
+    "net.ipv4.tcp_sack": {
+      "expected": "1",
+      "observed": "1",
+      "match": true
+    },
+    "net.ipv4.tcp_dsack": {
+      "expected": "1",
+      "observed": "1",
+      "match": true
+    },
+    "net.ipv4.tcp_fack": {
+      "expected": "0",
+      "observed": "0",
+      "match": true
+    },
+    "net.ipv4.tcp_window_scaling": {
+      "expected": "1",
+      "observed": "1",
+      "match": true
+    },
+    "net.ipv4.tcp_timestamps": {
+      "expected": "1",
+      "observed": "1",
+      "match": true
+    },
+    "net.ipv4.tcp_congestion_control": {
+      "expected": "bbr",
+      "observed": "bbr",
+      "match": true
+    },
+    "net.core.rmem_max": {
+      "expected": "212992",
+      "observed": "212992",
+      "match": true
+    },
+    "net.core.wmem_max": {
+      "expected": "212992",
+      "observed": "212992",
+      "match": true
+    },
+    "net.core.rmem_default": {
+      "expected": "212992",
+      "observed": "212992",
+      "match": true
+    },
+    "net.core.wmem_default": {
+      "expected": "212992",
+      "observed": "212992",
+      "match": true
+    },
+    "net.ipv4.tcp_rmem": {
+      "expected": "4096 131072 6291456",
+      "observed": "4096 131072 6291456",
+      "match": true
+    },
+    "net.ipv4.tcp_wmem": {
+      "expected": "4096 16384 4194304",
+      "observed": "4096 16384 4194304",
+      "match": true
+    }
+  },
+  "errors": []
+}
