@@ -1,0 +1,33 @@
+{
+  "version": "4.0.0-phd-frozen-definitive",
+  "script_sha256": "b2ccd482d5252b37eb4dc586e5c43c7506b4356cf8a4c9de145011bde206f798",
+  "timestamp_utc": "20261012_061830Z",
+  "strategy": "Observed state capture, defined reference specification, and controlled experimental baseline",
+  "sender_hostname": "psr-dal-bbr-test",
+  "sender_kernel": "6.8.0-1043-ibm",
+  "receiver": {
+    "receiver_ip": "10.245.64.4",
+    "receiver_port": 22,
+    "receiver_user": "root",
+    "receiver_host_key_fingerprint": "SHA256:/FFFtM2KZ5eaT6a2R/TiPiN8OxhUo8pjNl2tUVrCKgE\nSHA256:H/lXgKaQFS5n9xiYVaO2Id88Klu6/dXe6kdP+kGTEN0\nSHA256:tKeLNcTyMQITazAKcGCluRcNFbei+MnFQHrDNWdzKgc"
+  },
+  "payload_size_gib": 10,
+  "destination_sha_verification_policy": "Full SHA-256 for size <= 1 GiB; Block 1 SHA-256 for size > 1 GiB; exact size verification on all iterations",
+  "payloads": {
+    "high_entropy": {
+      "path": "/tmp/tcp_benchmark_payloads/payload_raw_10g.dat",
+      "size_bytes": 10737418240,
+      "sha256": "0ab73c7d0872d13ba429948b5d870d7dc408fda86e315fd8ae28558a96cf6618"
+    },
+    "compressible": {
+      "path": "/tmp/tcp_benchmark_payloads/payload_comp_10g.dat",
+      "size_bytes": 10737418240,
+      "sha256": "02981e9a362fcc2a74e5ae5a0b903ed8c6adcd4eb19365a7dec5a1d6c6c2f958"
+    }
+  },
+  "execution_plan_sha256": "7d09d3d6d262fa57a1d7ddf034058bed65d1cbe53786c1518ac797c5412920c8",
+  "blocks": 30,
+  "seed": 42,
+  "interface": "ens3",
+  "initial_qdisc": "fq"
+}

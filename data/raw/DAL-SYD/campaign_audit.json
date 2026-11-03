@@ -1,0 +1,12 @@
+{
+  "version": "4.0.0-phd-frozen-definitive",
+  "campaign_id": "20261012_061830Z_sender_to_10_245_64_4_22_10gib_seed42",
+  "total_expected_cells": 270,
+  "unique_verified_cells": 270,
+  "restoration_status": "RESTORE_VERIFIED",
+  "is_complete": true,
+  "missing_experimental_cells": [],
+  "unexpected_experimental_cells": [],
+  "failed_attempts_count": 0,
+  "failed_attempts": []
+}
