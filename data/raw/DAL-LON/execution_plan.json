@@ -1,0 +1,1356 @@
+{
+  "seed": 42,
+  "blocks": 30,
+  "plan": [
+    {
+      "block_id": 1,
+      "order_in_block": 1,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 1,
+      "order_in_block": 2,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 1,
+      "order_in_block": 3,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 1,
+      "order_in_block": 4,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 1,
+      "order_in_block": 5,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 1,
+      "order_in_block": 6,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 1,
+      "order_in_block": 7,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 1,
+      "order_in_block": 8,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 1,
+      "order_in_block": 9,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 2,
+      "order_in_block": 1,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 2,
+      "order_in_block": 2,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 2,
+      "order_in_block": 3,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 2,
+      "order_in_block": 4,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 2,
+      "order_in_block": 5,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 2,
+      "order_in_block": 6,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 2,
+      "order_in_block": 7,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 2,
+      "order_in_block": 8,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 2,
+      "order_in_block": 9,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 3,
+      "order_in_block": 1,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 3,
+      "order_in_block": 2,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 3,
+      "order_in_block": 3,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 3,
+      "order_in_block": 4,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 3,
+      "order_in_block": 5,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 3,
+      "order_in_block": 6,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 3,
+      "order_in_block": 7,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 3,
+      "order_in_block": 8,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 3,
+      "order_in_block": 9,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 4,
+      "order_in_block": 1,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 4,
+      "order_in_block": 2,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 4,
+      "order_in_block": 3,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 4,
+      "order_in_block": 4,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 4,
+      "order_in_block": 5,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 4,
+      "order_in_block": 6,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 4,
+      "order_in_block": 7,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 4,
+      "order_in_block": 8,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 4,
+      "order_in_block": 9,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 5,
+      "order_in_block": 1,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 5,
+      "order_in_block": 2,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 5,
+      "order_in_block": 3,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 5,
+      "order_in_block": 4,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 5,
+      "order_in_block": 5,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 5,
+      "order_in_block": 6,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 5,
+      "order_in_block": 7,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 5,
+      "order_in_block": 8,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 5,
+      "order_in_block": 9,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 6,
+      "order_in_block": 1,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 6,
+      "order_in_block": 2,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 6,
+      "order_in_block": 3,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 6,
+      "order_in_block": 4,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 6,
+      "order_in_block": 5,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 6,
+      "order_in_block": 6,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 6,
+      "order_in_block": 7,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 6,
+      "order_in_block": 8,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 6,
+      "order_in_block": 9,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 7,
+      "order_in_block": 1,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 7,
+      "order_in_block": 2,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 7,
+      "order_in_block": 3,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 7,
+      "order_in_block": 4,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 7,
+      "order_in_block": 5,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 7,
+      "order_in_block": 6,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 7,
+      "order_in_block": 7,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 7,
+      "order_in_block": 8,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 7,
+      "order_in_block": 9,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 8,
+      "order_in_block": 1,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 8,
+      "order_in_block": 2,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 8,
+      "order_in_block": 3,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 8,
+      "order_in_block": 4,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 8,
+      "order_in_block": 5,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 8,
+      "order_in_block": 6,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 8,
+      "order_in_block": 7,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 8,
+      "order_in_block": 8,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 8,
+      "order_in_block": 9,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 9,
+      "order_in_block": 1,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 9,
+      "order_in_block": 2,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 9,
+      "order_in_block": 3,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 9,
+      "order_in_block": 4,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 9,
+      "order_in_block": 5,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 9,
+      "order_in_block": 6,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 9,
+      "order_in_block": 7,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 9,
+      "order_in_block": 8,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 9,
+      "order_in_block": 9,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 10,
+      "order_in_block": 1,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 10,
+      "order_in_block": 2,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 10,
+      "order_in_block": 3,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 10,
+      "order_in_block": 4,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 10,
+      "order_in_block": 5,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 10,
+      "order_in_block": 6,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 10,
+      "order_in_block": 7,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 10,
+      "order_in_block": 8,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 10,
+      "order_in_block": 9,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 11,
+      "order_in_block": 1,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 11,
+      "order_in_block": 2,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 11,
+      "order_in_block": 3,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 11,
+      "order_in_block": 4,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 11,
+      "order_in_block": 5,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 11,
+      "order_in_block": 6,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 11,
+      "order_in_block": 7,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 11,
+      "order_in_block": 8,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 11,
+      "order_in_block": 9,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 12,
+      "order_in_block": 1,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 12,
+      "order_in_block": 2,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 12,
+      "order_in_block": 3,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 12,
+      "order_in_block": 4,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 12,
+      "order_in_block": 5,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 12,
+      "order_in_block": 6,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 12,
+      "order_in_block": 7,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 12,
+      "order_in_block": 8,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 12,
+      "order_in_block": 9,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 13,
+      "order_in_block": 1,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 13,
+      "order_in_block": 2,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 13,
+      "order_in_block": 3,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 13,
+      "order_in_block": 4,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 13,
+      "order_in_block": 5,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 13,
+      "order_in_block": 6,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 13,
+      "order_in_block": 7,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 13,
+      "order_in_block": 8,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 13,
+      "order_in_block": 9,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 14,
+      "order_in_block": 1,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 14,
+      "order_in_block": 2,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 14,
+      "order_in_block": 3,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 14,
+      "order_in_block": 4,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 14,
+      "order_in_block": 5,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 14,
+      "order_in_block": 6,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 14,
+      "order_in_block": 7,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 14,
+      "order_in_block": 8,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 14,
+      "order_in_block": 9,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 15,
+      "order_in_block": 1,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 15,
+      "order_in_block": 2,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 15,
+      "order_in_block": 3,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 15,
+      "order_in_block": 4,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 15,
+      "order_in_block": 5,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 15,
+      "order_in_block": 6,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 15,
+      "order_in_block": 7,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 15,
+      "order_in_block": 8,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 15,
+      "order_in_block": 9,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 16,
+      "order_in_block": 1,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 16,
+      "order_in_block": 2,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 16,
+      "order_in_block": 3,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 16,
+      "order_in_block": 4,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 16,
+      "order_in_block": 5,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 16,
+      "order_in_block": 6,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 16,
+      "order_in_block": 7,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 16,
+      "order_in_block": 8,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 16,
+      "order_in_block": 9,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 17,
+      "order_in_block": 1,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 17,
+      "order_in_block": 2,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 17,
+      "order_in_block": 3,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 17,
+      "order_in_block": 4,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 17,
+      "order_in_block": 5,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 17,
+      "order_in_block": 6,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 17,
+      "order_in_block": 7,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 17,
+      "order_in_block": 8,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 17,
+      "order_in_block": 9,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 18,
+      "order_in_block": 1,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 18,
+      "order_in_block": 2,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 18,
+      "order_in_block": 3,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 18,
+      "order_in_block": 4,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 18,
+      "order_in_block": 5,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 18,
+      "order_in_block": 6,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 18,
+      "order_in_block": 7,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 18,
+      "order_in_block": 8,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 18,
+      "order_in_block": 9,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 19,
+      "order_in_block": 1,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 19,
+      "order_in_block": 2,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 19,
+      "order_in_block": 3,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 19,
+      "order_in_block": 4,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 19,
+      "order_in_block": 5,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 19,
+      "order_in_block": 6,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 19,
+      "order_in_block": 7,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 19,
+      "order_in_block": 8,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 19,
+      "order_in_block": 9,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 20,
+      "order_in_block": 1,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 20,
+      "order_in_block": 2,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 20,
+      "order_in_block": 3,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 20,
+      "order_in_block": 4,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 20,
+      "order_in_block": 5,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 20,
+      "order_in_block": 6,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 20,
+      "order_in_block": 7,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 20,
+      "order_in_block": 8,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 20,
+      "order_in_block": 9,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 21,
+      "order_in_block": 1,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 21,
+      "order_in_block": 2,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 21,
+      "order_in_block": 3,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 21,
+      "order_in_block": 4,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 21,
+      "order_in_block": 5,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 21,
+      "order_in_block": 6,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 21,
+      "order_in_block": 7,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 21,
+      "order_in_block": 8,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 21,
+      "order_in_block": 9,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 22,
+      "order_in_block": 1,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 22,
+      "order_in_block": 2,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 22,
+      "order_in_block": 3,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 22,
+      "order_in_block": 4,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 22,
+      "order_in_block": 5,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 22,
+      "order_in_block": 6,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 22,
+      "order_in_block": 7,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 22,
+      "order_in_block": 8,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 22,
+      "order_in_block": 9,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 23,
+      "order_in_block": 1,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 23,
+      "order_in_block": 2,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 23,
+      "order_in_block": 3,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 23,
+      "order_in_block": 4,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 23,
+      "order_in_block": 5,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 23,
+      "order_in_block": 6,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 23,
+      "order_in_block": 7,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 23,
+      "order_in_block": 8,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 23,
+      "order_in_block": 9,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 24,
+      "order_in_block": 1,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 24,
+      "order_in_block": 2,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 24,
+      "order_in_block": 3,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 24,
+      "order_in_block": 4,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 24,
+      "order_in_block": 5,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 24,
+      "order_in_block": 6,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 24,
+      "order_in_block": 7,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 24,
+      "order_in_block": 8,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 24,
+      "order_in_block": 9,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 25,
+      "order_in_block": 1,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 25,
+      "order_in_block": 2,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 25,
+      "order_in_block": 3,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 25,
+      "order_in_block": 4,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 25,
+      "order_in_block": 5,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 25,
+      "order_in_block": 6,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 25,
+      "order_in_block": 7,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 25,
+      "order_in_block": 8,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 25,
+      "order_in_block": 9,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 26,
+      "order_in_block": 1,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 26,
+      "order_in_block": 2,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 26,
+      "order_in_block": 3,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 26,
+      "order_in_block": 4,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 26,
+      "order_in_block": 5,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 26,
+      "order_in_block": 6,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 26,
+      "order_in_block": 7,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 26,
+      "order_in_block": 8,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 26,
+      "order_in_block": 9,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 27,
+      "order_in_block": 1,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 27,
+      "order_in_block": 2,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 27,
+      "order_in_block": 3,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 27,
+      "order_in_block": 4,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 27,
+      "order_in_block": 5,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 27,
+      "order_in_block": 6,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 27,
+      "order_in_block": 7,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 27,
+      "order_in_block": 8,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 27,
+      "order_in_block": 9,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 28,
+      "order_in_block": 1,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 28,
+      "order_in_block": 2,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 28,
+      "order_in_block": 3,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 28,
+      "order_in_block": 4,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 28,
+      "order_in_block": 5,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 28,
+      "order_in_block": 6,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 28,
+      "order_in_block": 7,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 28,
+      "order_in_block": 8,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 28,
+      "order_in_block": 9,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 29,
+      "order_in_block": 1,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 29,
+      "order_in_block": 2,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 29,
+      "order_in_block": 3,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 29,
+      "order_in_block": 4,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 29,
+      "order_in_block": 5,
+      "variation_code": "V10_COMP_GZIP_16M"
+    },
+    {
+      "block_id": 29,
+      "order_in_block": 6,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 29,
+      "order_in_block": 7,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 29,
+      "order_in_block": 8,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 29,
+      "order_in_block": 9,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 30,
+      "order_in_block": 1,
+      "variation_code": "V06_BBR_FQ_16M"
+    },
+    {
+      "block_id": 30,
+      "order_in_block": 2,
+      "variation_code": "V01_BASELINE_4M"
+    },
+    {
+      "block_id": 30,
+      "order_in_block": 3,
+      "variation_code": "V05_CUBIC_FQ_16M"
+    },
+    {
+      "block_id": 30,
+      "order_in_block": 4,
+      "variation_code": "V03_BUF_16M"
+    },
+    {
+      "block_id": 30,
+      "order_in_block": 5,
+      "variation_code": "V08_CIPHER_CHACHA_16M"
+    },
+    {
+      "block_id": 30,
+      "order_in_block": 6,
+      "variation_code": "V04_BUF_64M"
+    },
+    {
+      "block_id": 30,
+      "order_in_block": 7,
+      "variation_code": "V02_SACK_OFF_4M"
+    },
+    {
+      "block_id": 30,
+      "order_in_block": 8,
+      "variation_code": "V09_COMP_RAW_16M"
+    },
+    {
+      "block_id": 30,
+      "order_in_block": 9,
+      "variation_code": "V10_COMP_GZIP_16M"
+    }
+  ]
+}

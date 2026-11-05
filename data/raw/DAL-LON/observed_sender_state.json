@@ -1,0 +1,16 @@
+{
+  "net.ipv4.tcp_sack": "1",
+  "net.ipv4.tcp_dsack": "1",
+  "net.ipv4.tcp_fack": "0",
+  "net.ipv4.tcp_window_scaling": "1",
+  "net.ipv4.tcp_timestamps": "1",
+  "net.ipv4.tcp_congestion_control": "cubic",
+  "net.core.default_qdisc": "fq_codel",
+  "net.core.rmem_max": "16777216",
+  "net.core.wmem_max": "16777216",
+  "net.core.rmem_default": "212992",
+  "net.core.wmem_default": "212992",
+  "net.ipv4.tcp_rmem": "4096 131072 16777216",
+  "net.ipv4.tcp_wmem": "4096 131072 16777216",
+  "root_qdisc": "fq_codel"
+}
